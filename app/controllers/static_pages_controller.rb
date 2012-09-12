@@ -5,6 +5,18 @@ class StaticPagesController < ApplicationController
   def about
   end
 
+  def exchange
+  end
+
+  def services
+  end
+
+  def events
+  end
+
+  def alumni
+  end
+
   def contact
   end
 end

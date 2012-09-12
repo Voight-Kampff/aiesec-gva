@@ -2,6 +2,10 @@ Aiesec::Application.routes.draw do
 
   match '/home',    to: 'static_pages#home'
   match '/about',   to: 'static_pages#about'
+  match '/exchange',to: 'static_pages#exchange'
+  match '/services',to: 'static_pages#services'
+  match '/events',  to: 'static_pages#events'
+  match '/alumni',  to: 'static_pages#alumni'
   match '/contact', to: 'static_pages#contact'
   
   
