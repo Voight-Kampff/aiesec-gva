@@ -1,0 +1,4 @@
+<% @to_be_deleted = Input.where("name =?", feed_test.name) %>
+<% @to_be_deleted.count.times do |i| %>
+	<% @to_be_deleted[i].destroy %>
+<% end %>
